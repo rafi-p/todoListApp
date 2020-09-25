@@ -3,11 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
-        Wish me luck guys!
+        <h1>TO DO LIST APP</h1>
     </div>
+    
+    <div>
+        <h2>Next up</h2>
+    </div>
+    <div id="nextUpParent">
+        <ul id="next-up">
+
+        </ul>
+    </div>
+    
+
+    <div>
+        <h2>On Progress</h2>
+    </div>
+    <div id="onProgressParent">
+        <ul id="on-progress">
+
+        </ul>
+    </div>
+
+    <div>
+        <h2>Done</h2>
+    </div>
+    <div id="doneParent">
+        <ul id= "done">
+
+        </ul>       
+    </div>
+
+    <div>
+        <h2>Form Todo</h2>
+    </div>
+    <div>
+        
+        <label>Task</label>
+        <textarea id="inputan" placeholder="Write your task here..."></textarea>
+        <label>List by</label>
+        <select name="listBy" id="listBy">
+            <option value="nextUp">Next up</option>
+            <option value="onProgress">On Progress</option>
+            <option value="done">Done</option>
+        </select>
+        <input type="submit" value="Submit" onclick="addToDo()">
+        <!-- <input type="text" id="inputan" placeholder="Input text di sini"> -->
+    </div>
+    <script src="toDo.js"></script>
 </body>
 </html>
