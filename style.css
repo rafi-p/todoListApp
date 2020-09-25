@@ -1,0 +1,24 @@
+#dor {
+ margin: 50px;
+ 
+}
+
+.apaya {
+    background-color: darkcyan;
+    color: whitesmoke;
+    outline-width: 5px;
+    outline-color: lightblue;
+    
+}
+
+
+.aneh ul li{
+    background-color: beige;
+    padding: 5px;
+    /* box-sizing: border-box; */
+    margin-right: 800px;
+    outline: auto;
+    float: center
+
+    
+}
